@@ -7,7 +7,6 @@
 
   <aside class="sidebar">
     <div class="sidebar-inner">
-
       {%- set display_toc = page.toc.enable and display_toc %}
       {%- if display_toc %}
         {%- set toc = toc(page.content, { class: "nav", list_number: page.toc.number, max_depth: page.toc.max_depth }) %}
